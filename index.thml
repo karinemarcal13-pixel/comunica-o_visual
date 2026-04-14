@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A R DE LIMA AZALEIA COMUNICAÇÃO VISUAL</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>A R DE LIMA AZALEIA</h1>
+    <p>Comunicação Visual Profissional</p>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Destaque sua empresa com impacto visual</h2>
+    <p>Fachadas, banners, adesivos e muito mais.</p>
+    <a class="btn" href="https://wa.me/5599999999999" target="_blank">Solicitar Orçamento</a>
+</section>
+
+<section id="servicos">
+    <h2>Nossos Serviços</h2>
+
+    <div class="servicos">
+        <div class="card">
+            <h3>Fachadas</h3>
+            <p>Design moderno para atrair clientes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Adesivos</h3>
+            <p>Personalização completa.</p>
+        </div>
+
+        <div class="card">
+            <h3>Banners</h3>
+            <p>Alta qualidade e durabilidade.</p>
+        </div>
+
+        <div class="card">
+            <h3>Placas</h3>
+            <p>Sinalização profissional.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Alguns Trabalhos</h2>
+
+    <div class="galeria">
+        <img src="https://via.placeholder.com/300" alt="">
+        <img src="https://via.placeholder.com/300" alt="">
+        <img src="https://via.placeholder.com/300" alt="">
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>📞 (43) 99999-9999</p>
+    <p>📧 contato@azaleia.com</p>
+    <p>📍 Cambé - PR</p>
+
+    <a class="btn" href="mailto:contato@azaleia.com">Enviar Email</a>
+</section>
+
+<footer>
+    <p>© 2026 A R DE LIMA AZALEIA COMUNICAÇÃO VISUAL</p>
+</footer>
+
+<!-- Botão WhatsApp -->
+<a href="https://wa.me/5599999999999" class="whatsapp" target="_blank">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
