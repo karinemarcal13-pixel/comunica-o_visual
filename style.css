@@ -1,25 +1,26 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: rgb(0, 0, 0);
+    background: #0f0f0f;
     color: white;
 }
 
-/* TOPO CORRIGIDO */
+/* TOPO MELHORADO (LOGO DESTACADA) */
 .topo {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
-    background: blue;
+    padding: 20px 0;
+    background: linear-gradient(90deg, #ffffff, #f1f1f1);
 }
 
-/* LOGO GRANDE DE VERDADE */
+/* LOGO GRANDE E COM DESTAQUE */
 .logo {
     width: 500px !important;
     max-width: none !important;
     height: auto;
     display: block;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
 }
 
 /* HERO */
